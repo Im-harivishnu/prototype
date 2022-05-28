@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Head{
+    height: 40px;
+    max-width: 2000px;
+    margin: auto;
+    background-color: #252525;
+}
+
+.Head p{
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
