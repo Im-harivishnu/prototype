@@ -4,15 +4,45 @@
     font-family: sans-serif;
 }
 
-.Head{
-    height: 40px;
+
+
+
+/* Head Area */
+.head{
+    /* height: 40px; */
     max-width: 2000px;
     margin: auto;
     background-color: #252525;
 }
 
-.Head p{
+.head p{
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+}
+
+
+
+
+
+/* Options Area */
+.options{
+    max-width: 2000px;
+    margin: auto;
+    border-bottom: 1px solid #252525; 
+}
+
+.options ul{
+    display: flex;
+    justify-content: center;
+}
+
+.options ul li{
+    list-style: none;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.options ul li:hover{
+    text-decoration: underline;
 }
